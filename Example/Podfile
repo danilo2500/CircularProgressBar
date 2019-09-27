@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CircularProgressBar_Example' do
+  pod 'CircularProgressBar', :path => '../'
+
+  target 'CircularProgressBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
