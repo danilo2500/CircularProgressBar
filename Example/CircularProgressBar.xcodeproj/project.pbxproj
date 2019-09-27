@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BAFFB7EC4D93FEC26E9DF15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0BAFFB7EC4D93FEC26E9DF15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		329AACA301CB413E3D60700C /* Pods_CircularProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6EF3478FF4AA52EE2A1E6F /* Pods-CircularProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularProgressBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-CircularProgressBar_Tests/Pods-CircularProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CircularProgressBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgressBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* CircularProgressBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7D536093F8979C0065227840 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7D536093F8979C0065227840 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		877B4574A7150E81A679AE54 /* Pods_CircularProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDB95220B7B543685BCFAB4B /* CircularProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CircularProgressBar.podspec; path = ../CircularProgressBar.podspec; sourceTree = "<group>"; };
+		BDB95220B7B543685BCFAB4B /* CircularProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CircularProgressBar.podspec; path = ../CircularProgressBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D8AB7A6032FFEC7E8B11EDD2 /* Pods-CircularProgressBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularProgressBar_Example.release.xcconfig"; path = "Target Support Files/Pods-CircularProgressBar_Example/Pods-CircularProgressBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA9B5E17C1A39CFEAEE17385 /* Pods-CircularProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularProgressBar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CircularProgressBar_Tests/Pods-CircularProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC37A4B23B72F932E543BC25 /* Pods-CircularProgressBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularProgressBar_Example.debug.xcconfig"; path = "Target Support Files/Pods-CircularProgressBar_Example/Pods-CircularProgressBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				DA9B5E17C1A39CFEAEE17385 /* Pods-CircularProgressBar_Tests.debug.xcconfig */,
 				3D6EF3478FF4AA52EE2A1E6F /* Pods-CircularProgressBar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
